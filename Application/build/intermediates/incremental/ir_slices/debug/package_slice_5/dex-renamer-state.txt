@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Sun Apr 21 08:59:15 PDT 2019
 base.0=/home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/build/intermediates/transforms/dexMerger/debug/5
+=======
+#Fri Apr 19 14:44:20 PDT 2019
+base.0=/home/hyoungham/Projects/AndroidSamples/Camera2Basic/Application/build/intermediates/transforms/dexMerger/debug/5
+>>>>>>> add a night detection algorithm
 path.0=classes.dex
 renamed.0=classes.dex

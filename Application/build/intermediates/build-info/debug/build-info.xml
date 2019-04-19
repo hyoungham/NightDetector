@@ -6,6 +6,7 @@
     density="560dpi"
     format="10"
     plugin-version="3.4.0"
+<<<<<<< HEAD
     timestamp="1555862353157"
     token="-8208249258513909504"
     verifier="FULL_BUILD_REQUESTED" >
@@ -13,15 +14,31 @@
     <task
         name="javac"
         duration="0" />
+=======
+    timestamp="1555710260089"
+    token="3420336928255664777"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="52" />
+>>>>>>> add a night detection algorithm
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
+<<<<<<< HEAD
         duration="112" />
     <task
         name="verifier"
         duration="25" />
+=======
+        duration="2" />
+    <task
+        name="verifier"
+        duration="1" />
+>>>>>>> add a night detection algorithm
 
     <artifact
         location="/home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/build/intermediates/resources/instant-run/debug/resources-debug.apk"
@@ -65,6 +82,7 @@
 
     <build
         build-mode="FULL"
+<<<<<<< HEAD
         timestamp="1555862353157"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
@@ -72,6 +90,12 @@
             type="SPLIT" />
         <artifact
             location="/home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
+=======
+        timestamp="1555701674685"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/hyoungham/Projects/AndroidSamples/Camera2Basic/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
+>>>>>>> add a night detection algorithm
             type="SPLIT" />
         <artifact
             location="/home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -98,7 +122,14 @@
             location="/home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
+<<<<<<< HEAD
             location="/home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+=======
+            location="/home/hyoungham/Projects/AndroidSamples/Camera2Basic/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/hyoungham/Projects/AndroidSamples/Camera2Basic/Application/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+>>>>>>> add a night detection algorithm
             type="SPLIT" />
         <artifact
             location="/home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -107,5 +138,26 @@
             location="/home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/build/intermediates/instant-run-apk/debug/NightDetoctor.apk"
             type="SPLIT_MAIN" />
     </build>
+<<<<<<< HEAD
+=======
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1555706669606"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/hyoungham/Projects/AndroidSamples/Camera2Basic/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1555710260089"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/hyoungham/Projects/AndroidSamples/Camera2Basic/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+    </build>
+>>>>>>> add a night detection algorithm
 
 </instant-run>

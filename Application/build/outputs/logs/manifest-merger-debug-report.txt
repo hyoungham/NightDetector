@@ -1,0 +1,97 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:18:1-41:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/985ff7067d40fb10640f56418e5aa910/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/66a76dd80e2354ce79b0a7f9bb9cae6f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/2b8802dc4d4ddfe922425278f18b1b3e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/2fcbeba4a97add67b40bf62706bd4e44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/0ae16c2b62768d3c26cb2abd45942513/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/a25f91696546eb5a0c7b532f0b3825ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/75fac7eddcb3272a6188373857e8b94c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/985359c56f0cc1df3f958756ebb2fa4a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/ca0934b10951ea7c3d4ae432c05a9b53/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/9abc49e1cd0f50ec3add7277590ad24a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/497087524f8991bab0b0dffba817cc8c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/6fb0fdcffa07674bc836231a58d2c4bf/AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:19:5-47
+	xmlns:android
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:23:5-60
+	android:name
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:23:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:24:5-70
+	android:name
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:24:19-67
+application
+ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:26:5-39:19
+	android:label
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:28:9-45
+	android:allowBackup
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:26:18-44
+	android:theme
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:29:9-45
+activity#com.example.android.camera2basic.CameraActivity
+ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:31:9-38:20
+	android:screenOrientation
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:33:19-55
+	android:label
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:32:19-51
+	android:name
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:31:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml
+INJECTED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/985ff7067d40fb10640f56418e5aa910/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/985ff7067d40fb10640f56418e5aa910/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/66a76dd80e2354ce79b0a7f9bb9cae6f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/66a76dd80e2354ce79b0a7f9bb9cae6f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/2b8802dc4d4ddfe922425278f18b1b3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/2b8802dc4d4ddfe922425278f18b1b3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/2fcbeba4a97add67b40bf62706bd4e44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/2fcbeba4a97add67b40bf62706bd4e44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/0ae16c2b62768d3c26cb2abd45942513/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/0ae16c2b62768d3c26cb2abd45942513/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/a25f91696546eb5a0c7b532f0b3825ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/a25f91696546eb5a0c7b532f0b3825ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/75fac7eddcb3272a6188373857e8b94c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/75fac7eddcb3272a6188373857e8b94c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/985359c56f0cc1df3f958756ebb2fa4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/985359c56f0cc1df3f958756ebb2fa4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/ca0934b10951ea7c3d4ae432c05a9b53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/ca0934b10951ea7c3d4ae432c05a9b53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/9abc49e1cd0f50ec3add7277590ad24a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/9abc49e1cd0f50ec3add7277590ad24a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/497087524f8991bab0b0dffba817cc8c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/497087524f8991bab0b0dffba817cc8c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/6fb0fdcffa07674bc836231a58d2c4bf/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/hyoungham/.gradle/caches/transforms-2/files-2.1/6fb0fdcffa07674bc836231a58d2c4bf/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml
+INJECTED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml
+		ADDED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/src/main/AndroidManifest.xml

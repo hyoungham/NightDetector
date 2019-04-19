@@ -1,0 +1,4 @@
+#Sun Apr 21 08:59:15 PDT 2019
+base.0=/home/hyoungham/Projects/nauto2c/sources/NightDetector/Application/build/intermediates/transforms/dexMerger/debug/3
+path.0=classes.dex
+renamed.0=classes.dex

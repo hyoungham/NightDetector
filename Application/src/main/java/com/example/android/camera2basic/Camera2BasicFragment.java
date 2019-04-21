@@ -78,7 +78,7 @@ public class Camera2BasicFragment extends Fragment
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
     private static final int REQUEST_CAMERA_PERMISSION = 1;
     private static final String FRAGMENT_DIALOG = "dialog";
-
+    private static final int NIGHT_THRESHOLD = 70;
     static {
         ORIENTATIONS.append(Surface.ROTATION_0, 90);
         ORIENTATIONS.append(Surface.ROTATION_90, 0);
@@ -941,7 +941,7 @@ public class Camera2BasicFragment extends Fragment
 
             //Night Detection Algorithm Part.
             Log.d(TAG, "brightness(0~255): " + mAvg);
-            if (mAvg < 60)
+            if (mAvg < NIGHT_THRESHOLD)
                 mNextNightMode = true;
             else
                 mNextNightMode = false;
